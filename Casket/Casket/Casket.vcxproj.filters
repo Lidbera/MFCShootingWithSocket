@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Socket">
+      <UniqueIdentifier>{4cf9ab5e-8cca-433c-b193-2455b9796c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Socket">
+      <UniqueIdentifier>{d79c5fd9-0e51-44f2-a2ef-a90749ffdc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Dlg">
+      <UniqueIdentifier>{147e535b-bede-433a-9c19-69a55aac3243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dlg">
+      <UniqueIdentifier>{6d849a1c-a527-45fa-8f49-4083b85c81c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{a29bc74f-91eb-4a60-9b45-224d4c78b21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{2e4eb2d7-e843-40e2-b267-1611eb27ee8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game">
+      <UniqueIdentifier>{081873ec-fce1-430e-9602-3c9096030044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{aaa31ea2-4398-4a33-ad5f-f5418121dc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Scene">
+      <UniqueIdentifier>{e98fa445-0228-46fa-85ae-099677263925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Scene">
+      <UniqueIdentifier>{a72c213d-82dc-492d-b4bb-8553c0610f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\game">
+      <UniqueIdentifier>{1c6a197e-16cc-46d3-bb91-6dcc77974d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\ui">
+      <UniqueIdentifier>{92f278a8-bd72-43b9-bed6-5d975bbb91eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Casket.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CasketDlg.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>헤더 파일\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient.h">
+      <Filter>헤더 파일\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServer.h">
+      <Filter>헤더 파일\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>헤더 파일\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Need.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>헤더 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>헤더 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi.h">
+      <Filter>헤더 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Match.h">
+      <Filter>헤더 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>헤더 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame.h">
+      <Filter>헤더 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Casket.cpp">
+      <Filter>소스 파일\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CasketDlg.cpp">
+      <Filter>소스 파일\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>소스 파일\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp">
+      <Filter>소스 파일\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketServer.cpp">
+      <Filter>소스 파일\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Match.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Casket.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Casket.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Casket.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\img\button.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\closeButton.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\left.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\right.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\panel.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\close.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\hp.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\img\ahp.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\char\background.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\char\bbullet.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\img\bitmap2.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\char\bomb.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\char\boss.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\char\bullet.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\char\player.bmp">
+      <Filter>리소스 파일\game</Filter>
+    </Image>
+    <Image Include="res\img\spanel.bmp">
+      <Filter>리소스 파일\ui</Filter>
+    </Image>
+    <Image Include="res\char\heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
